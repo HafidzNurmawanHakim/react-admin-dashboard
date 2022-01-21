@@ -1,0 +1,117 @@
+.card {
+  margin: 10px 20px 10px 0px;
+  width: 32%;
+  height: 180px;
+  border-radius: 6px;
+  position: relative;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.3s;
+
+  background: hsla(154, 57%, 38%, 1);
+  background: linear-gradient(45deg, hsla(154, 57%, 38%, 1) 0%, hsla(154, 72%, 70%, 1) 95%);
+  background: -moz-linear-gradient(45deg, hsla(154, 57%, 38%, 1) 0%, hsla(154, 72%, 70%, 1) 95%);
+  background: -webkit-linear-gradient(45deg, hsla(154, 57%, 38%, 1) 0%, hsla(154, 72%, 70%, 1) 95%);
+
+  button {
+    border: none;
+    background: #34be82;
+    position: absolute;
+    padding: 5px;
+    width: 100%;
+    border-radius: 6px;
+    bottom: -50px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    svg {
+      fill: white;
+      width: 25px;
+      margin: 2px 5px;
+    }
+
+    &:hover {
+      background: #2a9868;
+    }
+  }
+
+  &:hover {
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.3);
+    button {
+      bottom: 0;
+    }
+  }
+  .box {
+    padding: 20px;
+    color: white;
+    h3 {
+      font-family: "Montserrat", sans-serif;
+    }
+    svg {
+      position: absolute;
+      right: 20px;
+      width: 7vw;
+      fill: #1b6242;
+    }
+
+    .activity {
+      margin-top: 20px;
+      display: flex;
+      height: 60px;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      align-items: center;
+      font-family: "Montserrat", sans-serif;
+      svg {
+        position: relative;
+        width: 60px;
+        height: 60px;
+        left: 0px;
+      }
+    }
+  }
+}
+
+div.card2 {
+  background: rgb(227, 86, 82);
+  background: linear-gradient(90deg, rgba(227, 86, 82, 1) 31%, rgba(230, 140, 137, 1) 79%, rgba(236, 168, 166, 1) 100%);
+
+  .box {
+    svg {
+      fill: #a73935;
+    }
+  }
+
+  button {
+    background-color: #ff5959;
+
+    &:hover {
+      background: #a73935;
+    }
+  }
+}
+div.card3 {
+  background: rgb(81, 107, 255);
+  background: linear-gradient(90deg, rgba(81, 107, 255, 1) 31%, rgba(148, 179, 253, 1) 100%);
+
+  .box {
+    svg {
+      fill: #3243a8;
+    }
+  }
+
+  button {
+    background-color: #548cff;
+
+    &:hover {
+      background: #3243a8;
+    }
+  }
+}

@@ -1,0 +1,97 @@
+.card {
+  margin: 10px 1px;
+  width: 30%;
+  height: 180px;
+  border-radius: 6px;
+  position: relative;
+  -webkit-box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: #2a9868;
+  background: linear-gradient(45deg, #2a9868 0%, #7beaba 95%);
+  background: -webkit-linear-gradient(45deg, #2a9868 0%, #7beaba 95%);
+}
+
+.card button {
+  border: none;
+  background: #34be82;
+  position: absolute;
+  padding: 5px;
+  width: 100%;
+  border-radius: 6px;
+  bottom: -50px;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card button svg {
+  fill: white;
+  width: 25px;
+  margin: 2px 5px;
+}
+
+.card button:hover {
+  background: #2a9868;
+}
+
+.card:hover {
+  -webkit-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover button {
+  bottom: 0;
+}
+
+.card .box {
+  padding: 20px;
+  color: white;
+}
+
+.card .box h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card .box svg {
+  position: absolute;
+  right: 20px;
+  width: 7vw;
+  fill: #1b6242;
+}
+
+.card .box .chart {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card .box .chart svg {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  left: 0px;
+}
+/*# sourceMappingURL=card.css.map */
